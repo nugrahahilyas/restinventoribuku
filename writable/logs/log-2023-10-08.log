@@ -1,0 +1,30 @@
+ERROR - 2023-10-08 21:59:54 --> mysqli_sql_exception: Table 'restbuku.buku' doesn't exist in engine in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\BaseModel.php(1203): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\restbuku\app\Models\BukuModel.php(55): CodeIgniter\BaseModel->paginate(6, 'default', 1)
+#7 C:\xampp\htdocs\restbuku\app\Controllers\api\Buku.php(30): App\Models\BukuModel->tampildata(6, 1, 'DESC')
+#8 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+#9 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+#10 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\restbuku\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-10-08 21:59:54 --> Table 'restbuku.buku' doesn't exist in engine
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `buku`
+LEFT JOIN `penerbit` ON `penerbit`.`id_penerbit`=`buku`.`id_penerbit`', [], false)
+ 2 SYSTEMPATH\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1203): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Models\BukuModel.php(55): CodeIgniter\BaseModel->paginate(6, 'default', 1)
+ 5 APPPATH\Controllers\api\Buku.php(30): App\Models\BukuModel->tampildata(6, 1, 'DESC')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')

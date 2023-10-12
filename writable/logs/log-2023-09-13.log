@@ -1,0 +1,351 @@
+CRITICAL - 2023-09-13 00:00:32 --> syntax error, unexpected token "]"
+in APPPATH\Controllers\api\Penjualan.php on line 147.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Penjualan.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\api\\Penjualan')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\api\\Penjualan')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\api\\Penjualan', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 00:20:02 --> Call to a member function emptyTable() on bool
+in APPPATH\Controllers\api\Penjualan.php on line 148.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->simpanTransaksi()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 00:50:07 --> Attempt to read property "harga" on null
+in APPPATH\Controllers\api\Penjualan.php on line 89.
+ 1 APPPATH\Controllers\api\Penjualan.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "harga" on null', 'C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Penjualan.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+ERROR - 2023-09-13 00:57:10 --> mysqli_sql_exception: Duplicate entry 'NUMED' for key 'id_penerbit' in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', NULL, false)
+#4 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xampp\htdocs\restbuku\app\Database\Seeds\PenerbitSeeder.php(41): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\PenerbitSeeder->run()
+#7 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\xampp\htdocs\restbuku\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-09-13 00:57:21 --> mysqli_sql_exception: Duplicate entry 'NUMED' for key 'id_penerbit' in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', NULL, false)
+#4 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xampp\htdocs\restbuku\app\Database\Seeds\PenerbitSeeder.php(41): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\PenerbitSeeder->run()
+#7 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\xampp\htdocs\restbuku\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-09-13 01:19:50 --> mysqli_sql_exception: Can't create table `restbuku`.`detailpenjualan` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `d...', 0)
+#1 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `d...')
+#2 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `d...')
+#3 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `d...')
+#4 C:\xampp\htdocs\restbuku\app\Database\Migrations\2023-09-12-064516_DetailPenjualan.php(45): CodeIgniter\Database\Forge->createTable('detailpenjualan')
+#5 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\DetailPenjualan->up()
+#6 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\restbuku\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-09-13 01:28:27 --> Class "App\Controllers\Api\DetailPenjualanModel" not found
+in APPPATH\Controllers\api\Penjualan.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->simpanTransaksi()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+ERROR - 2023-09-13 01:29:04 --> mysqli_sql_exception: Duplicate entry 'CUST00001' for key 'id_penjualan' in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\restbuku\app\Controllers\api\Penjualan.php(137): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Api\Penjualan->simpanTransaksi()
+#10 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+#11 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\restbuku\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-09-13 01:29:04 --> Duplicate entry 'CUST00001' for key 'id_penjualan'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penjualan` (`id_penjualan`, `total`, `created_at`, `updated_at`) VALUES (:id_penjualan:, :total:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\api\Penjualan.php(137): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->simpanTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 01:29:54 --> Call to undefined method App\Models\TempDetailPenjualanModel::empty
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\api\Penjualan.php(154): CodeIgniter\Model->__call('empty', [])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->simpanTransaksi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+ERROR - 2023-09-13 01:31:14 --> mysqli_sql_exception: Duplicate entry 'CUST00001' for key 'id_penjualan' in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\restbuku\app\Controllers\api\Penjualan.php(137): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Api\Penjualan->simpanTransaksi()
+#10 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+#11 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\restbuku\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-09-13 01:31:14 --> Duplicate entry 'CUST00001' for key 'id_penjualan'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `penjualan` (`id_penjualan`, `total`, `created_at`, `updated_at`) VALUES (:id_penjualan:, :total:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\api\Penjualan.php(137): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->simpanTransaksi()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 01:34:31 --> Call to a member function emptyTable() on bool
+in APPPATH\Controllers\api\Penjualan.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->simpanTransaksi()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 01:38:42 --> Call to a member function empty() on bool
+in APPPATH\Controllers\api\Penjualan.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->simpanTransaksi()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 01:41:15 --> Call to a member function empty() on bool
+in APPPATH\Controllers\api\Penjualan.php on line 154.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->simpanTransaksi()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+ERROR - 2023-09-13 01:42:23 --> mysqli_sql_exception: Duplicate entry 'NUMED' for key 'id_penerbit' in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', NULL, false)
+#4 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\xampp\htdocs\restbuku\app\Database\Seeds\PenerbitSeeder.php(41): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\PenerbitSeeder->run()
+#7 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\xampp\htdocs\restbuku\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-09-13 02:24:38 --> syntax error, unexpected single-quoted string "id_penjualan", expecting "]"
+in APPPATH\Controllers\api\Penjualan.php on line 175.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Penjualan.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\api\\Penjualan')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\api\\Penjualan')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\api\\Penjualan', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 02:28:49 --> Undefined variable $resultgenerate
+in APPPATH\Controllers\api\Penjualan.php on line 175.
+ 1 APPPATH\Controllers\api\Penjualan.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $resultgenerate', 'C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Penjualan.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->update('3')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 07:48:03 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$stok
+in APPPATH\Controllers\api\Penjualan.php on line 152.
+ 1 APPPATH\Controllers\api\Penjualan.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$stok', 'C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Penjualan.php', 152)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->simpanTransaksi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 07:50:51 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$stok
+in APPPATH\Controllers\api\Penjualan.php on line 152.
+ 1 APPPATH\Controllers\api\Penjualan.php(152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$stok', 'C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Penjualan.php', 152)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->simpanTransaksi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 09:27:02 --> Attempt to read property "harga" on null
+in APPPATH\Controllers\api\Penjualan.php on line 86.
+ 1 APPPATH\Controllers\api\Penjualan.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "harga" on null', 'C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Penjualan.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 09:29:33 --> Attempt to read property "harga" on null
+in APPPATH\Controllers\api\Penjualan.php on line 86.
+ 1 APPPATH\Controllers\api\Penjualan.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "harga" on null', 'C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Penjualan.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 09:30:39 --> Attempt to read property "harga" on null
+in APPPATH\Controllers\api\Penjualan.php on line 86.
+ 1 APPPATH\Controllers\api\Penjualan.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "harga" on null', 'C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Penjualan.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 09:31:08 --> Attempt to read property "harga" on null
+in APPPATH\Controllers\api\Penjualan.php on line 86.
+ 1 APPPATH\Controllers\api\Penjualan.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "harga" on null', 'C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Penjualan.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 09:31:28 --> Attempt to read property "harga" on null
+in APPPATH\Controllers\api\Penjualan.php on line 92.
+ 1 APPPATH\Controllers\api\Penjualan.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "harga" on null', 'C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Penjualan.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 09:33:29 --> Attempt to read property "harga" on null
+in APPPATH\Controllers\api\Penjualan.php on line 86.
+ 1 APPPATH\Controllers\api\Penjualan.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "harga" on null', 'C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Penjualan.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 09:45:35 --> Unsupported operand types: string * string
+in APPPATH\Controllers\api\Penjualan.php on line 97.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penjualan->create()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penjualan))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 13:49:27 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Filters\FilterJwt.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\restbuku\\app\\Filters\\FilterJwt.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\FilterJwt')
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\FilterJwt')
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('api/penerbit', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 13:51:41 --> syntax error, unexpected token "}"
+in APPPATH\Helpers\jwt_helper.php on line 11.
+ 1 APPPATH\Filters\FilterJwt.php(18): helper([...])
+ 2 SYSTEMPATH\Filters\Filters.php(180): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('api/penerbit', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 13:53:47 --> Class "App\Filters\Services" not found
+in APPPATH\Filters\FilterJwt.php on line 23.
+ 1 SYSTEMPATH\Filters\Filters.php(180): App\Filters\FilterJwt->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->run('api/penerbit', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 14:06:28 --> App\Controllers\Login::index(): Return value must be of type string, CodeIgniter\HTTP\Response returned
+in APPPATH\Controllers\Login.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 14:17:54 --> syntax error, unexpected token "}"
+in APPPATH\Models\UserModel.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\restbuku\\app\\Models\\UserModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UserModel')
+ 3 APPPATH\Controllers\Login.php(34): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UserModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 14:19:12 --> Class "firebase\JWT\JWT" not found
+in APPPATH\Helpers\jwt_helper.php on line 35.
+ 1 APPPATH\Controllers\Login.php(55): createJWT('mason@gmail.com')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 14:20:38 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\restbuku\app\Helpers\jwt_helper.php on line 35 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 193.
+ 1 APPPATH\Helpers\jwt_helper.php(35): Firebase\JWT\JWT::encode([...], 'r4h4s14')
+ 2 APPPATH\Controllers\Login.php(55): createJWT('mason@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 14:27:05 --> Too few arguments to function Firebase\JWT\JWT::encode(), 2 passed in C:\xampp\htdocs\restbuku\app\Helpers\jwt_helper.php on line 35 and at least 3 expected
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 193.
+ 1 APPPATH\Helpers\jwt_helper.php(35): Firebase\JWT\JWT::encode([...], 'r4h4s14')
+ 2 APPPATH\Controllers\Login.php(55): createJWT('mason@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 14:37:39 --> Algorithm not supported
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 236.
+ 1 VENDORPATH\firebase\php-jwt\src\JWT.php(212): Firebase\JWT\JWT::sign('eyJ0eXAiOiJKV1QiLCJhbGciOiJtZDUifQ.eyJlbWFpbCI6Im51Z2VAZ21haWwuY29tIiwiaWF0IjoxNjk0NTkwNjU5LCJleHAiOjE2OTQ1OTQyNTl9', 'r4h4s14', 'md5')
+ 2 APPPATH\Helpers\jwt_helper.php(35): Firebase\JWT\JWT::encode([...], 'r4h4s14', 'md5')
+ 3 APPPATH\Controllers\Login.php(55): createJWT('nuge@gmail.com')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-13 14:53:05 --> Data Otentikasi tidak ditemukan
+in APPPATH\Models\UserModel.php on line 31.
+ 1 APPPATH\Controllers\Login.php(40): App\Models\UserModel->getEmail('nuge@gmail.co')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')

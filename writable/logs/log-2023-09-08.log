@@ -1,0 +1,124 @@
+CRITICAL - 2023-09-08 04:41:23 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-08 04:41:23 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(78): CodeIgniter\HTTP\Response->send()
+#4 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\restbuku\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-08 04:44:18 --> Class "Locale" not found
+in SYSTEMPATH\CodeIgniter.php on line 214.
+ 1 ROOTPATH\spark(88): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-09-08 04:44:18 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\I18n\TimeTrait.php:74
+Stack trace:
+#0 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\I18n\TimeTrait.php(115): CodeIgniter\I18n\Time->__construct(NULL, NULL, NULL)
+#1 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(468): CodeIgniter\I18n\Time::now()
+#2 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\HTTP\ResponseTrait.php(446): CodeIgniter\HTTP\Response->sendHeaders()
+#3 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Debug\ExceptionHandler.php(78): CodeIgniter\HTTP\Response->send()
+#4 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(Error), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\xampp\htdocs\restbuku\spark(88): CodeIgniter\CodeIgniter->initialize()
+#1 {main}
+in SYSTEMPATH\I18n\TimeTrait.php on line 74.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-09-08 04:01:06 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\restbuku\app\Database\Migrations\2023-09-08-032518_Penerbit.php(64): CodeIgniter\Database\Forge->createTable('penerbit')
+#5 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Penerbit->up()
+#6 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\restbuku\spark(102): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-09-08 04:05:03 --> mysqli_sql_exception: Table 'penerbit' already exists in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\restbuku\app\Database\Migrations\2023-09-08-032518_Penerbit.php(64): CodeIgniter\Database\Forge->createTable('penerbit')
+#5 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Penerbit->up()
+#6 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\BaseCommand.php(115): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Commands\Database\MigrateRefresh.php(85): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\restbuku\spark(102): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2023-09-08 04:05:15 --> mysqli_sql_exception: Table 'penerbit' already exists in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\restbuku\app\Database\Migrations\2023-09-08-032518_Penerbit.php(64): CodeIgniter\Database\Forge->createTable('penerbit')
+#5 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(877): App\Database\Migrations\Penerbit->up()
+#6 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\restbuku\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+CRITICAL - 2023-09-08 06:41:07 --> New expressions are not supported in this context
+in APPPATH\Controllers\api\Penerbit.php on line 15.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-08 06:44:24 --> syntax error, unexpected token "protected"
+in APPPATH\Controllers\api\Penerbit.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Penerbit.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\api\\Penerbit')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\api\\Penerbit')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\api\\Penerbit', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-08 06:47:43 --> New expressions are not supported in this context
+in APPPATH\Controllers\api\Penerbit.php on line 10.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-09-08 07:04:23 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO pen...', 0)
+#1 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pen...')
+#2 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pen...')
+#3 C:\xampp\htdocs\restbuku\app\Database\Seeds\PenerbitSeeder.php(24): CodeIgniter\Database\BaseConnection->query('INSERT INTO pen...', Array)
+#4 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\PenerbitSeeder->run()
+#5 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#6 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\xampp\htdocs\restbuku\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+CRITICAL - 2023-09-08 21:48:17 --> Undefined variable $data
+in APPPATH\Controllers\api\Penerbit.php on line 20.
+ 1 APPPATH\Controllers\api\Penerbit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Penerbit.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penerbit->index('11')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penerbit))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')

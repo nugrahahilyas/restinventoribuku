@@ -1,0 +1,18 @@
+CRITICAL - 2023-10-05 14:06:27 --> Undefined variable $response
+in APPPATH\Controllers\Home.php on line 47.
+ 1 APPPATH\Controllers\Home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $response', 'C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\Home.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-10-05 14:10:02 --> Invalid file: "hallo.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hallo.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('hallo', [], true)
+ 3 APPPATH\Controllers\Home.php(47): view('hallo')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')

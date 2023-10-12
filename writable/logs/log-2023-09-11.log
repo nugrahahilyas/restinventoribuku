@@ -1,0 +1,473 @@
+CRITICAL - 2023-09-11 09:26:12 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Model.php on line 871
+in SYSTEMPATH\Database\BaseBuilder.php on line 983.
+ 1 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->like('id_penerbit', null)
+ 2 APPPATH\Models\BukuModel.php(45): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\api\Buku.php(68): App\Models\BukuModel->cari(null)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 09:31:12 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Model.php on line 871
+in SYSTEMPATH\Database\BaseBuilder.php on line 983.
+ 1 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->like('id_penerbit', null)
+ 2 APPPATH\Models\BukuModel.php(45): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\api\Buku.php(71): App\Models\BukuModel->cari(null)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 10:19:47 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Models\BukuModel.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\restbuku\\app\\Models\\BukuModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\BukuModel')
+ 3 APPPATH\Controllers\api\Buku.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\BukuModel')
+ 4 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Api\Buku->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 10:21:31 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Model.php on line 871
+in SYSTEMPATH\Database\BaseBuilder.php on line 983.
+ 1 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->like('id_penerbit', null)
+ 2 APPPATH\Models\BukuModel.php(51): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\api\Buku.php(68): App\Models\BukuModel->cari(null)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 10:23:01 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Model.php on line 871
+in SYSTEMPATH\Database\BaseBuilder.php on line 983.
+ 1 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->like('id_penerbit', null)
+ 2 APPPATH\Models\BukuModel.php(51): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\api\Buku.php(68): App\Models\BukuModel->cari(null)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 10:26:00 --> CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Model.php on line 871
+in SYSTEMPATH\Database\BaseBuilder.php on line 983.
+ 1 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->like('id_penerbit', null)
+ 2 APPPATH\Models\BukuModel.php(51): CodeIgniter\Model->__call('like', [...])
+ 3 APPPATH\Controllers\api\Buku.php(68): App\Models\BukuModel->cari(null)
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+ERROR - 2023-09-11 10:54:49 --> mysqli_sql_exception: Column 'id_penerbit' cannot be null in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `bu...', 0)
+#1 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bu...')
+#2 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bu...')
+#3 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bu...', Array, false)
+#4 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\restbuku\app\Controllers\api\Buku.php(95): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Api\Buku->create()
+#10 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+#11 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\restbuku\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-09-11 10:54:49 --> Column 'id_penerbit' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `buku` (`id_penerbit`, `judul`, `penulis`, `harga`, `stok`, `cover`, `id_buku`, `created_at`, `updated_at`) VALUES (:id_penerbit:, :judul:, :penulis:, :harga:, :stok:, :cover:, :id_buku:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\api\Buku.php(95): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->create()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 13:26:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+in APPPATH\Controllers\api\Buku.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 13:28:07 --> syntax error, unexpected single-quoted string "pager", expecting "]"
+in APPPATH\Controllers\api\Buku.php on line 31.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Buku.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\api\\Buku')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\api\\Buku')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\api\\Buku', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 13:29:19 --> Call to a member function tampildata() on array
+in APPPATH\Controllers\api\Buku.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+ERROR - 2023-09-11 13:37:10 --> mysqli_sql_exception: Unknown column 'buku.nama_penerbit' in 'on clause' in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\restbuku\app\Models\BukuModel.php(56): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\restbuku\app\Controllers\api\Buku.php(27): App\Models\BukuModel->tampildata()
+#7 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+#8 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+#9 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\restbuku\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-09-11 13:37:10 --> Unknown column 'buku.nama_penerbit' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `buku`
+JOIN `penerbit` ON `penerbit`.`nama_penerbit`=`buku`.`nama_penerbit`', [], false)
+ 2 SYSTEMPATH\Model.php(871): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\BukuModel.php(56): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\api\Buku.php(27): App\Models\BukuModel->tampildata()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 13:51:33 --> syntax error, unexpected single-quoted string "pager", expecting "]"
+in APPPATH\Controllers\api\Buku.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Buku.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\api\\Buku')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\api\\Buku')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\api\\Buku', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 13:51:38 --> syntax error, unexpected single-quoted string "pager", expecting "]"
+in APPPATH\Controllers\api\Buku.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Buku.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\api\\Buku')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\api\\Buku')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\api\\Buku', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 13:51:49 --> Call to a member function paginate() on array
+in APPPATH\Controllers\api\Buku.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 13:52:28 --> Call to a member function paginate() on array
+in APPPATH\Controllers\api\Buku.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 13:52:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+in APPPATH\Controllers\api\Buku.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 13:53:18 --> Call to a member function paginate() on array
+in APPPATH\Controllers\api\Buku.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 13:59:35 --> Call to a member function paginate() on array
+in APPPATH\Controllers\api\Buku.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 13:59:42 --> Call to a member function paginate() on array
+in APPPATH\Controllers\api\Buku.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 13:59:51 --> Call to a member function paginate() on array
+in APPPATH\Controllers\api\Buku.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:03:22 --> Call to a member function paginateArray() on array
+in APPPATH\Controllers\api\Buku.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:04:22 --> Call to undefined method CodeIgniter\Pager\Pager::paginateArray()
+in APPPATH\Controllers\api\Buku.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:07:43 --> Call to a member function paginateArray() on array
+in APPPATH\Controllers\api\Buku.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:07:57 --> Call to a member function paginate() on array
+in APPPATH\Controllers\api\Buku.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:09:43 --> Call to a member function paginate() on array
+in APPPATH\Controllers\api\Buku.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:10:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+in APPPATH\Controllers\api\Buku.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:12:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Controllers\api\Buku.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:13:46 --> Call to a member function paginate() on null
+in APPPATH\Controllers\api\Buku.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:14:45 --> Call to a member function paginate() on array
+in APPPATH\Controllers\api\Buku.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:14:52 --> Call to a member function paginate() on array
+in APPPATH\Controllers\api\Buku.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:15:05 --> Call to a member function paginate() on array
+in APPPATH\Controllers\api\Buku.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:18:37 --> syntax error, unexpected variable "$response"
+in APPPATH\Controllers\api\Buku.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Buku.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\api\\Buku')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\api\\Buku')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\api\\Buku', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:19:30 --> Call to a member function paginate() on array
+in APPPATH\Controllers\api\Buku.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:23:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+in APPPATH\Controllers\api\Buku.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:23:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+in APPPATH\Controllers\api\Buku.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:23:36 --> Call to a member function getDetails() on null
+in APPPATH\Controllers\api\Buku.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:25:02 --> Call to a member function paginate() on array
+in APPPATH\Controllers\api\Buku.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:25:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+in APPPATH\Controllers\api\Buku.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:27:21 --> Call to a member function paginate() on array
+in APPPATH\Controllers\api\Buku.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:27:44 --> Call to a member function getDetails() on null
+in APPPATH\Controllers\api\Buku.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:33:08 --> Call to a member function paginate() on array
+in APPPATH\Controllers\api\Buku.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:34:15 --> Call to a member function getDetails() on null
+in APPPATH\Controllers\api\Buku.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:37:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Controllers\api\Buku.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:40:49 --> Too few arguments to function App\Models\BukuModel::tampildata(), 0 passed in C:\xampp\htdocs\restbuku\app\Controllers\api\Buku.php on line 29 and exactly 2 expected
+in APPPATH\Models\BukuModel.php on line 54.
+ 1 APPPATH\Controllers\api\Buku.php(29): App\Models\BukuModel->tampildata()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:41:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Models\BukuModel.php on line 57.
+ 1 APPPATH\Controllers\api\Buku.php(29): App\Models\BukuModel->tampildata(6, 1)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:52:19 --> Too few arguments to function App\Models\BukuModel::tampildata(), 0 passed in C:\xampp\htdocs\restbuku\app\Controllers\api\Buku.php on line 26 and exactly 2 expected
+in APPPATH\Models\BukuModel.php on line 54.
+ 1 APPPATH\Controllers\api\Buku.php(26): App\Models\BukuModel->tampildata()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-11 14:52:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+in APPPATH\Models\BukuModel.php on line 57.
+ 1 APPPATH\Controllers\api\Buku.php(26): App\Models\BukuModel->tampildata(6, 1)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+ERROR - 2023-09-11 14:59:10 --> mysqli_sql_exception: Column 'id_penerbit' in where clause is ambiguous in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\BaseModel.php(1203): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\restbuku\app\Controllers\api\Buku.php(44): CodeIgniter\BaseModel->paginate(6, 'default', 1)
+#7 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Api\Buku->show()
+#8 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+#9 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\restbuku\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-09-11 14:59:10 --> Column 'id_penerbit' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `buku`
+LEFT JOIN `penerbit` ON `penerbit`.`id_penerbit`=`buku`.`id_penerbit`
+WHERE `id_penerbit` LIKE :id_penerbit: ESCAPE \'!\'
+OR  `id_buku` LIKE :id_buku: ESCAPE \'!\'
+OR  `judul` LIKE :judul: ESCAPE \'!\'
+OR  `penulis` LIKE :penulis: ESCAPE \'!\'
+OR  `nama_penerbit` LIKE :nama_penerbit: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1203): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\api\Buku.php(44): CodeIgniter\BaseModel->paginate(6, 'default', 1)
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->show()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+ERROR - 2023-09-11 16:39:46 --> mysqli_sql_exception: Column 'id_penerbit' in where clause is ambiguous in C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\BaseModel.php(1203): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\restbuku\app\Controllers\api\Buku.php(44): CodeIgniter\BaseModel->paginate(6, 'default', 1)
+#7 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Api\Buku->show()
+#8 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+#9 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\restbuku\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\restbuku\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-09-11 16:39:46 --> Column 'id_penerbit' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `buku`
+LEFT JOIN `penerbit` ON `penerbit`.`id_penerbit`=`buku`.`id_penerbit`
+WHERE `id_penerbit` LIKE :id_penerbit: ESCAPE \'!\'
+OR  `id_buku` LIKE :id_buku: ESCAPE \'!\'
+OR  `judul` LIKE :judul: ESCAPE \'!\'
+OR  `penulis` LIKE :penulis: ESCAPE \'!\'
+OR  `nama_penerbit` LIKE :nama_penerbit: ESCAPE \'!\'', [...], false)
+ 2 SYSTEMPATH\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1203): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\api\Buku.php(44): CodeIgniter\BaseModel->paginate(6, 'default', 1)
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Buku->show()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Buku))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')

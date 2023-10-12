@@ -1,0 +1,54 @@
+CRITICAL - 2023-09-09 09:02:47 --> Undefined variable $rules
+in APPPATH\Controllers\api\Penerbit.php on line 47.
+ 1 APPPATH\Controllers\api\Penerbit.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rules', 'C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Penerbit.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penerbit->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penerbit))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-09 09:08:32 --> App\Controllers\Api\Penerbit::respondCreated(): Argument #2 ($message) must be of type string, array given, called in C:\xampp\htdocs\restbuku\app\Controllers\api\Penerbit.php on line 54
+in SYSTEMPATH\API\ResponseTrait.php on line 149.
+ 1 APPPATH\Controllers\api\Penerbit.php(54): App\Controllers\Api\Penerbit->respondCreated([], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penerbit->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penerbit))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-09 09:09:52 --> App\Controllers\Api\Penerbit::respondCreated(): Argument #2 ($message) must be of type string, array given, called in C:\xampp\htdocs\restbuku\app\Controllers\api\Penerbit.php on line 54
+in SYSTEMPATH\API\ResponseTrait.php on line 149.
+ 1 APPPATH\Controllers\api\Penerbit.php(54): App\Controllers\Api\Penerbit->respondCreated([], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penerbit->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penerbit))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-09 09:19:35 --> Call to undefined method App\Controllers\Api\Penerbit::response()
+in APPPATH\Controllers\api\Penerbit.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Api\Penerbit->create()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Penerbit))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-09 20:28:47 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\api\Penerbit.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Penerbit.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\api\\Penerbit')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\api\\Penerbit')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\api\\Penerbit', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
+CRITICAL - 2023-09-09 20:54:53 --> Declaration of App\Controllers\Api\Penerbit::show() must be compatible with CodeIgniter\RESTful\ResourceController::show($id = null)
+in APPPATH\Controllers\api\Penerbit.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-09 21:04:29 --> syntax error, unexpected token "=", expecting variable
+in APPPATH\Controllers\api\Penerbit.php on line 35.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\restbuku\\app\\Controllers\\api\\Penerbit.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\api\\Penerbit')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\api\\Penerbit')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\api\\Penerbit', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\restbuku\\public\\index.php')
